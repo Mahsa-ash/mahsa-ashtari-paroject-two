@@ -1,0 +1,279 @@
+
+header img{
+    display: block;
+    width:100%;
+}
+.wrapper{
+    max-width: 1200px;
+    width: 70%;
+    margin:0 auto;
+}
+ul{
+    padding: 0;
+    margin:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    margin: 0;
+}
+h1{
+    font: bold 48px "PlayFairDisplay";
+}
+h2{
+    font: 16px "Poppins";
+    color: #999999;
+}
+h3{
+    font: bold 36px "PlayFairDisplay";
+    margin:18px 0;
+}
+.homePage{
+    main{
+    background-color:$primary;
+    .aboutUs{
+        width: 60%;
+        padding:100px 0;
+    .flexContainer{
+        display: flex;
+        position: relative;
+        margin-top: 50px;
+        img:nth-of-type(1){
+            border: white 7px solid;
+            align-self: flex-start;
+        }
+        img:nth-of-type(2){
+            position: absolute;
+            left: -70px;
+            width: 20%;
+            top: 70px;
+        }
+        >div{
+            margin:0 20px;
+            hr{
+                width:50px;
+            }
+        }
+    }
+    h2{
+        text-align: center;
+    }
+    }
+    .sectionOne{
+    display: flex;
+    background-color: white;
+    img{
+        width: 30%;
+    }
+    .textContainer{
+        padding:50px 40px 50px 10%;
+        width: 70%;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+        display: flex;
+        width:calc(50% - 40px);
+        margin:0 20px;
+        }
+        h4{
+            margin-top: 0;
+        }
+        i{
+            margin-right: 10px;
+        }
+    }
+    }
+    .sectionTwo{
+        background-image: url(../sunshine-assets/pattern.png);
+        padding: 50px 0;
+    .testimonials{
+        text-align: center;
+        width: 70%;
+        background-color: white;
+        padding:50px;
+        margin:20px auto 50px auto;
+    }
+    .gallery{
+        width: 70%;
+        text-align: center;
+        margin:50px auto 20px auto;
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            img{
+                width: calc(33.33% - 20px);
+                margin:10px 10px;
+            }
+        }
+    }
+    }
+    }
+    footer{
+        .contactUs{
+            display: flex;
+            img{
+                width: 55%;
+            }
+            div{
+                width:45%;
+                padding:50px 15% 50px 60px;
+            }
+        }
+
+    }
+}
+.blogPage{
+    main{
+        background-color:#EDEDED;
+        >.wrapper{
+            position: relative;
+            width:70%;
+            background-color:white;
+            top:-50px;
+            padding:20px 0;
+            >h3{
+                text-align: center;
+            }
+            >p{
+                text-align: center;
+            }
+            section.wrapper{
+                margin: 50px auto;
+                width: 95%;
+            }
+            .blog{
+                ul{
+                    display: flex;
+                    justify-content: flex-end;
+                    position: relative;
+                    img{
+                        border-radius: 50%;
+                        align-self: flex-start;
+                    }
+                    li{
+                        margin:0 20px;
+                    }
+                    li:nth-of-type(1){
+                        position: absolute;
+                        left: 0;
+                        display: flex;
+                        margin:0;
+                    }
+                }
+            }
+            .posts{
+                >div{
+                    display: flex;
+                    >div{
+                        img{
+                            width:100%;
+                            display:block;
+                        }
+                        width: calc(33.33% - 20px);
+                        margin: 0 10px;
+                        border-bottom:0.45px $secondary solid;
+                        >div{
+                            padding:20px;
+                            padding-top: 0;
+                        }
+                    }
+                    >i{
+                        display:none;
+                    }
+                }
+            }
+            .comments{
+                >div{
+                    display: flex;
+                    margin:20px 0;
+                    div{
+                        margin:0 20px;
+                        width:90%;
+                        background-color:$secondary;
+                        padding:0 10px;
+                    }
+                    img{
+                        align-self: flex-start;
+                    }
+                }
+            }
+            .leaveCmnt{
+                    input{
+                        border:none;
+                        border-bottom: 0.45px $secondary solid;
+                        padding: 0;
+                        width:calc(32.33% - 10px);
+                        margin: 0 5px;
+
+                    }
+                    input:nth-of-type(4){
+                        display: block;
+                        width:100%;
+                        height: 200px;
+                    }
+                    button{
+                        margin-top: 30px;
+                        padding:10px;
+                        background-color: #84A016;
+                        border:none;
+                    }
+                }
+            }
+
+        }
+        
+
+}
+.contactPage{
+    main{
+        padding:50px 0
+    }
+    .contactDetail{
+        ul{
+            display: flex;
+            li{
+                padding:0 30px;
+                i,a,p{
+                    display: block;
+                    margin:5px 0;
+                    color:black;
+                }
+            }
+        }
+
+    }
+    .getInTouch{
+        padding-top: 20px;
+        input{
+            border:none;
+            border-bottom: 0.45px $secondary solid;
+            padding: 0;
+            width:calc(32.33% - 10px);
+            margin: 0 5px;           
+
+            }
+        input:nth-of-type(4){
+            display: block;
+            width:100%;
+            height: 200px;
+            }
+        button{
+            margin-top: 30px;
+            padding:10px;
+            background-color: #84A016;
+            border:none;
+            }
+    }
+    footer{
+        img{
+            display: block;
+        }
+    }
+
+}
