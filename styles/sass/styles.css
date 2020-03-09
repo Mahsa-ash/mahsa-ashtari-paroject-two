@@ -328,6 +328,9 @@ h3 {
 
 .homePage main .sectionOne img {
   width: 30%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
 }
 
 .homePage main .sectionOne .textContainer {
@@ -756,6 +759,36 @@ footer nav .wrapper ul {
     padding: 50px 0;
     width: 80%;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 650px) {
+  .homePage h3 {
+    font-size: 25px;
+  }
+  .homePage main .aboutUs {
+    width: 70%;
+  }
+  .homePage main .aboutUs .flexContainer {
+    display: block;
+  }
+  .homePage main .aboutUs .flexContainer img:nth-of-type(2) {
+    display: none;
+  }
+  .homePage main .aboutUs .flexContainer img:nth-of-type(1) {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 550px) {
+  .homePage footer .contactUs img {
+    display: none;
+  }
+  .homePage footer .contactUs div {
+    padding: 0;
+    width: 80%;
+    margin: 50px auto;
   }
 }
 /*# sourceMappingURL=styles.css.map */

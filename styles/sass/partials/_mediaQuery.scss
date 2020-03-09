@@ -132,7 +132,7 @@ footer{
        main{
            .sectionOne {
                img{
-                   display: none;
+                   display:none;
                }
                .textContainer{
                padding:50px 0;
@@ -141,6 +141,44 @@ footer{
            }
        } 
         
+    }
+}
+@media (max-width:650px) {
+    h3{
+        font-size: 25px;
+    }
+  main{
+        .aboutUs{
+            width:70%;
+            .flexContainer{
+                img:nth-of-type(2){
+                    display: none;
+                }
+                display: block;
+                img:nth-of-type(1){
+                    width:100%;
+                    height:300px;
+                }
+
+
+            }
+       }   
+
+}
+}
+@media (max-width:550px){
+    footer{
+        .contactUs{
+            img{
+                display: none;
+            }
+            div{
+                padding:0;
+                width:80%;
+                margin:50px auto;
+            }
+        }
+
     }
 }
 }
